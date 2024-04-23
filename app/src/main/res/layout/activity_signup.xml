@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_launcher_background"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_background"
+        android:hint="userName"
+        android:layout_marginTop="15dp"
+        android:id="@+id/username"
+
+        android:padding="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_background"
+        android:hint="full name"
+        android:layout_marginTop="15dp"
+        android:id="@+id/fullname"
+        android:padding="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_background"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="15dp"
+        android:id="@+id/idemail"
+        android:padding="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_background"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dp"
+        android:id="@+id/passid"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:background="@drawable/ic_launcher_background"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? log in"
+        android:id="@+id/logintxt"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
