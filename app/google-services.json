@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "451982019467",
+    "project_id": "first-app-1a9b5",
+    "storage_bucket": "first-app-1a9b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451982019467:android:9de221afb40a136a04fd8e",
+        "android_client_info": {
+          "package_name": "com.example.firstapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBenLKIXHiz3W6NmBP9_ci4r6X21Ar_G8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451982019467:android:2db5680ef700873104fd8e",
+        "android_client_info": {
+          "package_name": "hus.example.maria23_4_2024"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBenLKIXHiz3W6NmBP9_ci4r6X21Ar_G8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

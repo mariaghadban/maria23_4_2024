@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".signUp">
+
+    <ImageView
+
+        android:layout_width="284dp"
+        android:layout_height="50dp"
+        android:src="@drawable/signuplogo" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:hint="userName"
+        android:layout_marginTop="15dp"
+        android:id="@+id/username"
+        android:padding="10dp"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:hint="full name"
+        android:layout_marginTop="15dp"
+        android:id="@+id/fullname"
+        android:padding="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="15dp"
+        android:id="@+id/idemail"
+        android:padding="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dp"
+        android:id="@+id/passid"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:background="@drawable/buttonbackground"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/teal_700"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? log in"
+        android:id="@+id/logintxt"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>

@@ -31,9 +31,9 @@
             android:id="@+id/login_btn"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="log in"
+            android:text="login"
             android:textAllCaps="false"
-            android:background="@drawable/background_btn"/>
+            android:background="@drawable/buttonbackground"/>
 
         <Space
             android:layout_width="0dp"
@@ -45,7 +45,7 @@
             android:layout_height="50dp"
             android:text="sign up"
             android:textAllCaps="false"
-            android:background="@drawable/background_btn"/>
+            android:background="@drawable/buttonbackground"/>
 
 
     </LinearLayout>

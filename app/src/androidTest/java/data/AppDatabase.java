@@ -7,12 +7,12 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
 
-import data.usersTable.table.subject.MySubject;
-import data.usersTable.table.subject.mySubjectQurey;
-import data.usersTable.table.task.MyTask;
-import data.usersTable.table.task.MyTaskQurey;
-import data.usersTable.table.user.MyUser;
-import data.usersTable.table.user.myUserQurey;
+import hus.example.communicate1.table.subject.MySubject;
+import hus.example.communicate1.table.subject.mySubjectQurey;
+import hus.example.communicate1.table.task.MyTask;
+import hus.example.communicate1.table.task.MyTaskQurey;
+import hus.example.communicate1.table.user.MyUser;
+import hus.example.communicate1.table.user.myUserQurey;
 
 //3
 @Database(entities = {MyUser.class, MySubject.class, MyTask.class},version = 5)
