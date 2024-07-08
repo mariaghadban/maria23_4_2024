@@ -73,10 +73,7 @@ class SignUpActivity extends AppCompatActivity {
             return;
         }
 
-        // If all validations are passed, proceed with registration (add your own logic here)
-        // Example: Register user using Firebase Authentication or your preferred method
 
-        // For demonstration purposes, navigate to HomeActivity after successful registration
         startActivity(new Intent(SignUpActivity.this, HomeActivity.class));
         finish();
     }

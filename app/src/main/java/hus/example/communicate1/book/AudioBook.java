@@ -5,7 +5,9 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
- class AudioBookDetailActivity extends AppCompatActivity {
+import hus.example.maria23_4_2024.R;
+
+class AudioBookDetailActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

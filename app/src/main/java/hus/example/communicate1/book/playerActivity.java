@@ -6,7 +6,9 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
- class PlayerActivity extends AppCompatActivity {
+import hus.example.maria23_4_2024.R;
+
+class PlayerActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

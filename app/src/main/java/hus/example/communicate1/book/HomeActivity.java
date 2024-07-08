@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import hus.example.maria23_4_2024.R;
+
 public class HomeActivity extends AppCompatActivity {
 
     @Override

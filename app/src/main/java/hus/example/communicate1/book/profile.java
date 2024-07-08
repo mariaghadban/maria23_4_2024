@@ -5,7 +5,12 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import hus.example.communicate1.user.user;
+import hus.example.maria23_4_2024.R;
+
 class ProfileActivity extends AppCompatActivity {
+
+    private user currentUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,4 +26,7 @@ class ProfileActivity extends AppCompatActivity {
     }
 
 
+    public user getCurrentUser() {
+        return currentUser;
+    }
 }

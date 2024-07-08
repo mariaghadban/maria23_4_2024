@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import hus.example.maria23_4_2024.R;
 
-public class SettingsActivity extends AppCompatActivity {
+ class SettingsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

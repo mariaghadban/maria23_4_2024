@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import hus.example.maria23_4_2024.R;
+
 
 public class logIn extends AppCompatActivity {
     @Override
